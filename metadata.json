@@ -1,7 +1,0 @@
-{
-  "name": "IronPulse Gym Manager",
-  "description": "Complete Gym Attendance System with QR Code management, Member tracking, and Gemini-powered insights.",
-  "requestFramePermissions": [
-    "camera"
-  ]
-}
