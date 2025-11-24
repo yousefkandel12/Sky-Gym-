@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getMembers, getAttendance } from '../services/storage';
-import { generateBusinessInsights } from '../services/geminiService';
+import { generateBusinessInsights } from "../services/geminiService.ts";
 import { Member, AttendanceRecord } from '../types';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts';
 import { Activity, Users, DollarSign, AlertCircle, Sparkles, CheckCircle } from 'lucide-react';
